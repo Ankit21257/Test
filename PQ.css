@@ -1,0 +1,42 @@
+#pqbox{
+    height: 150px; 
+    width: 300px;
+    background-color: grey; 
+    border: 5px dotted black; 
+    margin: 20px 1em 40px 2em; 
+    padding: 1em;
+}
+
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    display: inline
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 50%;   
+  display: inline-block; 
+  margin: 10px;          
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+}
+
+#123div{
+    grid-template-rows: 100px 100px 100px;
+}
+
+.outerbox{
+    grid-template-rows: 100px 100px 100px;
+}
+
+
+
